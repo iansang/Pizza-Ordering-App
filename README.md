@@ -8,8 +8,7 @@ Ian Sang
 
 ## <b>Setup</b>
 
- >Live Version 
- extract the file
+ [Live Version]( https://iansang.github.io/Pizza-Ordering-App/) 
 
  cd to the PizzaApp directory
 
