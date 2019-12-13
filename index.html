@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>PizzaApp</title>
+	<!-- fontawesome -->
+	<script defer src="https:use.fontawesome.com/releases/v5.8.0/js/all.js"></script>
+	<!-- GOOGLE FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Lobster|Montserrat|Ubuntu&display=swap" rel="stylesheet">
+	<!-- CSS STYLESHEET -->
+	<link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+
+
+
+<body>
+	<section id="title">
+		<div class="container-fluid">
+
+
+
+			<!-- Nav Bar -->
+			<nav class="navbar navbar-expand-lg navbar-light">
+
+				<a class="navbar-brand" href=""><span>BAMBINO</span> <span>PIZZA</span></a>
+
+
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#bounce">Menu</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="#order">Orders</a>
+						</li>
+
+
+					</ul>
+				</div>
+
+			</nav>
+
+
+		</div>
+	</section>
+
+
+	<section class="secText">
+		<h1>What makes an authentic Italian pizza</h1>
+		<p>An authentic Italian pizza is perfection at 5 different levels – the base, the sauce, the cheese, the toppings and last but not the least – the pizza chef. </p>
+	</section>
+
+	<section class="sec2">
+
+	</section>
+	<!-- <section class="secText">
+				<h1>Master The art of Making Pizza</h1>
+				<p>Do you have the magic in your hands! the art, the experience and expertise to create a culinary masterpiece – the real authentic Italian pizza.</p><a href="https://www.youtube.com/watch?v=1-SJGQ2HLp8">The best pizza recipe</a>
+			</section> -->
+
+	<section class="sec3">
+
+	</section>
+	<section class="secText">
+		<h1>DID YOU KNOW</h1>
+		<p>Prior to 2012, the record for World's Largest Pizza was held by Norwood Hypermarket in South Africa. In 2012, a group of chefs from NIPfood in Rome, Italy broke the record with a massive pizza with a surface area of 13,580.28
+			square feet.
+			They even named the pizza Ottavia after the Octavian Augustus, a Roman emperor.
+			Almost 20,000 pounds of flour and 10,000 pounds of mozzarella cheese went into Ottavia's production. Amazingly, the pizza was 100 percent gluten-free!
+		</p>
+	</section>
+
+	<section class="sec4">
+
+	</section>
+
+
+	<div class="container">
+		<h1>MENU</h1>
+		<div class="row">
+
+			<div class="col-sm-4">
+				<a href="#about"><img src="images/large.png" class="mx-auto d-block click" alt="mouse click" id="bounce"></a>
+				<h5>Large</h5><br>
+				<h5>ksh 1200</h5>
+			</div>
+			<div class="col-sm-4">
+				<a href="#about"><img src="images/medium.png" class="mx-auto d-block click" alt="mouse click" id="bounce"></a>
+				<h5>Medium</h5><br>
+				<h5>ksh 700</h5>
+			</div>
+			<div class="col-sm-4">
+				<a href="#about"><img src="images/regular.png" class="mx-auto d-block click" alt="mouse click" id="bounce"></a>
+				<h5>Regular</h5><br>
+				<h5>ksh 500</h5>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div class="orders" id="order">
+		<h1 class="text-center" id="order-pizza">Order Pizza</h1>
+		<div class="form-group row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8 order-overlay text-center">
+				<form class="col-sm-6 offset-sm-3 text-center">
+					<label>Pick your pizza:</label>
+					<select class="custom-select custom-select-md mb-3 flavour" required>
+						<option value="Prosciutto Rocket">Prosciutto Rockete</option>
+						<option value=" Margherita Pizzaa">Margherita Pizzaa</option>
+						<option value="Siciliana">Siciliana</option>
+						<option value="Capricciosa">Capricciosa Steak</option>
+						<option value="Quattro stagioni">Quattro stagioni</option>
+						<option value="Quattro formaggi">Quattro formaggi</option>
+						<option value="Tonno e cipolla ">Tonno e cipolla </option>
+
+					</select>
+					<label>Chose your preferred Size:</label>
+					<select class="custom-select custom-select-md mb-3" id="size" required>
+						<option value="regular">Regular</option>
+						<option value="medium">Medium</option>
+						<option value="large">Large</option>
+					</select>
+					<label for="crust">Choose your favorite Crust:</label>
+					<select class="custom-select custom-select-md mb-3" id="crust" required>
+						<option value="thin">Thin Crust @ Ksh. 100</option>
+						<option value="thick">Thick Crust @ Ksh. 150</option>
+						<option value="flatbread">FlatBread Crust @ sh. 180</option>
+						<option value="custom">Custom Crust @ sh. 280</option>
+					</select>
+					<label>Select Your favourite Toppings</label>
+					<select class="custom-select custom-select-md mb-3" id="toppings" required>
+						<option value="tomato"> buffalo mozzarella @ sh.100</option>
+						<option value="onions">fresh basil leaves @ sh. 80</option>
+						<option value="mushroom">tomato sauce @ sh. 80</option>
+					</select>
+
+
+					<label for="number">Number of Pizza's</label>
+					<input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
+
+
+				</form><br>
+				<a href="#summary">
+					<button type="submit" class="btn btn-success checkout" id="checkout">
+						Checkout
+					</button>
+				</a>
+
+			</div>
+		</div>
+	</div>
+	<div class="container">
+
+	</div>
+	<div class="social-menu">.
+		<ul>
+			<li><a href=""><i class="fab fa-facebook fa-2x"></i></a> </li>
+			<li><a href=""><i class="fab fa-instagram fa-2x"></i></a> </li>
+			<li><a href=""><i class="fab fa-twitter fa-2x"></i></a> </li>
+			<li><a href=""><i class="fab fa-linkedin fa-2x"></i></a> </li>
+		</ul>
+	</div>
+
+	<!-- bootstrap stylesheet -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
+</body>
+
+</html>
