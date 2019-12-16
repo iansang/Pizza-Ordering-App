@@ -10,9 +10,7 @@ Ian Sang
 
  [Live Version]( https://iansang.github.io/Pizza-Ordering-App/) 
 
- cd to the PizzaApp directory
 
- >Open the index.html on your favorite browser
  ## The website structure is divided into the following sections:
 - Home
 -Do You know section 
@@ -30,5 +28,5 @@ Ian Sang
 > MIT LICENSE  © 2019 IanSang
 ## Contact me 
 Email: kipiansang@gmail.com
-Twitter:( @iansang17)
-Facebook: (Ian Sang(
+Twitter: @iansang17
+Facebook: Ian Sang
