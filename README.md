@@ -18,7 +18,6 @@ Ian Sang
   * Css
   * Javascript
   * Bootstrap
-  * Markdown
 
 ## License
 > MIT LICENSE  © 2019 IanSang
