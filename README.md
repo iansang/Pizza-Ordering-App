@@ -29,4 +29,4 @@ Ian Sang
 ## License
 > MIT LICENSE  © 2019 IanSang
 ## Contact me 
-To collaborate on pizza app, reach me on  kipiansang@gmail.com
+Email: kipiansang@gmail.com
